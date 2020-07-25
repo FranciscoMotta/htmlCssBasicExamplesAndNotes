@@ -1,0 +1,62 @@
+La primera página debe ser index.html, será lo primero que busque el compilador
+
+Etiquetas:
+
+- Poner titulo a la pagina 
+
+<title> Acá escribes el título de la página </title>
+
+- Definir un párrafo 
+
+<p> Pones el párrafo </p>
+
+- Poner encabezado
+
+<h#> Acá pones el encabezado </h#>
+ # varía de 1 a 6 donde 1 es el tamañó más grande
+
+- Poner la versión 
+<!DOCTYPE html>
+
+- Para poner el contenido
+
+<html> 
+CONTENIDO
+    <head>
+    CABEZA
+    </head>
+    <body>
+    CUERPO
+    </body>
+</html>
+
+- atributo de Etiquetas
+
+lang -> lenguaje 
+
+lang = "es" para definir el lenguaje de la página
+
+<meta /> (no se cierra) para usar sus atributos
+ 
+    <meta name="descripcion" content="Esta es mi primera página web" /> descripción del sitio
+    <meta name = "author" content = "Franzua" /> autor del sitio
+    <meta name = "keywords" content = "Mi primer codigo html, html principiantes" /> palabras clave de busqueda
+    <meta charset="utf-8" /> codificacion de caracteres 
+
+    para crear listas 
+
+    <ul>
+     Para una lista desordenada
+     <li> Para agregar un item </li>
+    </ul>
+    
+    Para un menu de navegación 
+
+    <nav>
+    
+    <ul>
+     Para una lista desordenada
+     <li> Para agregar un item </li>
+    </ul>
+
+    </nav>
