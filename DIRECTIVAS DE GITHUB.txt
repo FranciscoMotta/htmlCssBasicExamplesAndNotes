@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 DIRECTIVAS DE GITHUB 
 Notas: Solo actua con texto plano.
 Uso de texto terminal de linea de comandos.
@@ -132,3 +133,139 @@ git remote set-url origin "link ssh" añades al repositorio pero por ssh secure 
 
 SIEMPRE ES BUENO HACER EL PULL
 
+=======
+DIRECTIVAS DE GITHUB 
+Notas: Solo actua con texto plano.
+Uso de texto terminal de linea de comandos.
+Windows usa el C: 
+
+pwd = Se usa para ver en que carpeta estoy.
+/= coloca en la carpeta 
+cd = se usa para viajar entre carpetas y poner la carpeta home
+ls = lista los archivos que tengo
+ls -al = para ver los todos archivos ocultos 
+~ = dice que estos en la raíz de mis documento
+clear = limpias la pantalla 
+cd .. sirve para volver en las carpetas 
+mi carpeta home es mi usuario 
+mkdir = se usa para crear directorios o carpetas en GITHUB
+touch = crea un archivo vacio
+cat = muestrar el contenido
+history = muestra la historia de comandos 
+para usar un comando del listado que ofrece history se hace viendo
+que número de comando es y !#
+rm = borra un archivo 
+
+
+
+NOTAS CHACHO
+
+cd =>  cambia carpeta(change directo)
+pwd => para saber dode estas
+ls => listar
+-l => muestra todo lo de la carpeta
+-al ===> argumento muestra todo lo de la carpeta con ocultos
+clear o ctrl + l => limpiar
+cd .. => para regresar a la carpeta anterior
+tab => autollena comando
+~ => carpeta de usuario principal(c)
+mkdir (nombre) => maker director(para crear carpeta)
+touch (nombre).txt = para crear un archivo vacio
+cat (archivo).txt => ver o leer lo hay dentro del archivo
+code  => para abrir el visual studio
+code (nombre).txt => para abrir el archivo en el visual st
+history => historial de comandos que he escrito
+!(número de historial) => corre comando del número según el listado de history
+rm => para borrar un archivo
+(comando) --help => explicación del comando
+git init () => para crear un repositorio
+git status => para mostrar los archivos trackeados y no trackeados
+git add (nombre).txt=> trackear un archivo 
+git rm --cached (nombre) => para volver al archivo a temporal
+git commit -m "(mensaje)" => para guardar en repositorio y el - m es para agregar un mensaje
+git config => muestra todo lo que puedes configurar
+git config --global user.name "(nombre)" => cambia el nombre de usuario
+git config --global user.email "(correo)" => cambia el correo
+git log (nombre).txt => me muestra todos los commits, el historial de modificaciones
+git show (nombre).txt => me muestra todos los cambios en texto
+git diff "números1" "números2" => diferencias entre archivos
+git add . => agrega todo lo de la carpeta
+git reset (numerós) --hard => borra toda la versión
+git reset (numerós) --soft => borra el ultimo listo para un commit deja los add's
+git diff => diferencia entre el add (ram) y lo que esta en tu disco duro
+git log --stat => cambios especificos de bits
+git checkout (número) (nombre de archivo).txt => nos deja ir, mirar, pasear y volver. (es para cada archivo individualmente)
+git clone url -> Para clonar un repositorio remoto 
+git commit -am "mensaje" => aplica el add, el commit y puedes poner el mensaje
+git branch "nombre de rama"=> crea una rama
+git checkout "nombre de rama" => se mueve a esa rama
+git remote add origin (dirección de github) => agrega a donde enviaras el repositorio
+git remote -v => para ver donde haras fetch y push
+git push origin (master) => envias el repositorio al github
+git 
+
+git push -> para traer lo del repositorio remoto 
+git pull -> copio el repositorio local y la base de datos de 
+cambios 
+-;
+
+Vamos a crear una rama, la cual es un copia del ultimo commit 
+de la rama master 
+
+git commit -am solo funciona para archivos a los cuales 
+se les hizo un add antes, esto ya cumple la función del 
+git add <archivo>
+
+git merge <rama> te ayuda a juntar 2 ramas
+tienes que tener cuidado donde haces la rama porque allí se 
+traeran los archivos de las demás ramas 
+Luego de hacer el merge tienes que hacer un commit xd no me fijé
+
+git remote add origin <URL del repositorio> Se una para poder 
+dar un origen remoto para los archivos del repositorio local 
+En otras palabras inicializas o unes tu repositorio local con 
+el remoto (cuenta GITHUB)
+
+git remote = te muestra donde estas?
+
+git remote -v te muestra las acciones que puedes hacer
+
+git push origin master -> Para enviar al origen todo lo de la 
+rama master 
+
+fetch sirve para jalar a tu repositorio local
+
+para traer los archivos se puede hacer el merge origin 
+o el fetch 
+
+git pull origin master --allow-unrelated-histories
+
+para unir historias no relacionadas 
+
+- para letras
+--para usar palabras
+hotfix = arreglo en caliente(arrgelar bugs)
+merge = unir una versión experimental con el final (unir entre diversas ramas)
+
+git tag -a <nombre> -"mejora" <numero del log>
+
+git log --all muestra las historias de manera más entendible
+git log --all --graph --decorate --oneline Puedes ver las historia
+de manera más entendible 
+alias <nombre>="función propia de github"  
+
+git tag -d <nombreDelTag> Borra el tag local
+git push origin :refs/tags/<nombreDelTag> borra las referencia de los tag
+
+ssh-keygen -t -rsa -b 4096 -C "correo" -> Permite crear las llaves en el home ligadas al correo
+introducido
+
+eval $(ssh-agent -s) -> Evaluar si las llaves funcionan 
+
+ssh-add ~/.ssh/id_rsa para añadir la llave privada al sistema
+
+git remote set-url origin "link ssh" añades al repositorio pero por ssh secure shell 
+
+SIEMPRE ES BUENO HACER EL PULL
+
+>>>>>>> 5f9bb05ff22ed755d8b8d70b9ef4ba8295447106
