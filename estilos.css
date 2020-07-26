@@ -1,6 +1,18 @@
-header{
-    background: green;
-}
+/*Cambiamos de color a los footer*/
 footer{
     background: greenyellow;
+    font-size: 30px;
+    font-family: monospace;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Lucida Sans';
+}
+p{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+li{
+    font-size: 30px;
+    font-family: inherit;
 }
