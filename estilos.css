@@ -22,8 +22,9 @@ p{
     font-family: sans-serif;
 }
 li{
-    font-size: 30px;
-    font-family: inherit;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin: 50px 50px 50px 50px ;
 }
 body{
     text-align: center;
@@ -44,5 +45,23 @@ ul{
     margin-right: 50px;
     margin-bottom: 70px;
     padding: 30px;
-    border: 1px solid black;
+    border: 5px solid #4d5859;
 }
+.contentPres{
+    margin: 60px 60px 60px 60px;
+    border: 10px solid #012301;
+}
+.textPres{
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    border: 20px solid #D8D9DA;
+    background: palegoldenrod;
+}
+/* Para poder modificar algunas cosas de manera universal
+*{
+    SE USA EL ASTERISCO Y DENTRO DE ELLA VA LO QUE 
+    SE QUIERE ALTERAR
+}
+*/
