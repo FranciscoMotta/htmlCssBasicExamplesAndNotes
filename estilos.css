@@ -1,12 +1,20 @@
 /*Cambiamos de color a los footer*/
 footer{
-    background: greenyellow;
     font-size: 30px;
     font-family: monospace;
+}
+header{
+    font: bold 35px sans-serif;
 }
 h1{
     font-size: 50px;
     font-family: 'Lucida Sans';
+    font-weight: bold;
+}
+h2{
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 45px;
 }
 p{
     font-size: 40px;
