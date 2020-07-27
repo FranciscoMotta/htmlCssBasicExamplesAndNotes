@@ -22,6 +22,13 @@ h2 {
     font-size: 45px;
 }
 
+h3 {
+    border: 10px solid tomato;
+    background: wheat;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 p {
     font-size: 40px;
     font-family: sans-serif;
@@ -53,6 +60,7 @@ article {
 
 ul {
     display: block;
+    background: lightblue;
 }
 
 #divisionCuerpo,
@@ -63,7 +71,8 @@ ul {
     margin-right: 50px;
     margin-bottom: 70px;
     padding: 30px;
-    border: 5px solid #4d5859;
+    border: 5px solid black;
+    background: khaki;
 }
 
 .contentPres {
@@ -82,7 +91,7 @@ ul {
     padding-top: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
-    border: 20px solid #D8D9DA;
+    border: 20px solid black;
     background: palegoldenrod;
     /*Para poder aliniar a los lados las listas*/
 }
@@ -104,6 +113,16 @@ ul li {
     font-size: 80px;
     font-weight: bold;
     font-family: 'Lucida Sans';
+}
+
+.foto {
+    width: 360px;
+    height: 360px;
+}
+
+.fotoPrin {
+    width: 1500px;
+    height: 1000px;
 }
 
 
