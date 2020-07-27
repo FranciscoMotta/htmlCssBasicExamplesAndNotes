@@ -23,7 +23,7 @@ h2 {
 }
 
 h3 {
-    border: 10px solid tomato;
+    border: 10px dashed tomato;
     background: wheat;
     margin-left: 100px;
     margin-right: 100px;
