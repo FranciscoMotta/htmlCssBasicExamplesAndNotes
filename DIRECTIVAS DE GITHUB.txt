@@ -8,7 +8,7 @@ pwd = Se usa para ver en que carpeta estoy.
 cd = se usa para viajar entre carpetas y poner la carpeta home
 ls = lista los archivos que tengo
 ls -al = para ver los todos archivos ocultos 
-~ = dice que estos en la raíz de mis documento
+~ = dice que estas en la raíz de mis documentos
 clear = limpias la pantalla 
 cd .. sirve para volver en las carpetas 
 mi carpeta home es mi usuario 
